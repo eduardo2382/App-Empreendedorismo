@@ -17,23 +17,21 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 #user{
-    background-color: red;
+    display: flex;
+    align-items: center;
 }
 
 #user_id{
-    background-color: blue;
+    background-color: red;
 }
 
 #user_img{
     width: 50px;
     border-radius: 50%;
-}
-
-#search{
-    background-color: blue;
 }
 
 #btn_search{
