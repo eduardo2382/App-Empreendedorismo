@@ -38,10 +38,18 @@ header{
 }
 
 #btn_search{
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border: none;
     background-color: transparent;
     border-radius: 50%;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img_search{
+    width: 30px;
+    height: 30px;
 }
